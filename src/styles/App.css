@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('back-servon.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    background: rgb(53, 175, 129);
+  }
+  
+  .container:hover {
+    background: url('jaredd-craig-HH4WBGNyltc-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  

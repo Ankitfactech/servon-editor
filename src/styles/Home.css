@@ -1,0 +1,46 @@
+#feature {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  .feature-box {
+    background: yellow;
+    color: blue;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid red;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .feature-box button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feature-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .feature-box p {
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+  
+  #edit-feature, #crop-feature {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background: yellowgreen;
+  }
+  
